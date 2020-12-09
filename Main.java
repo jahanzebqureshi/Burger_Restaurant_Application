@@ -20,7 +20,7 @@ class Burger{
             this.basePrice = 2.50*quantity;
         }
         else if (roll.toLowerCase().equals("whole wheat") && meat.toLowerCase().equals("beef")){
-            this.basePrice = 2.75*quantit;
+            this.basePrice = 2.75*quantity;
         }
         else {
             this.basePrice = 2.00*quantity;
